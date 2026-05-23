@@ -5,4 +5,17 @@
     <body>
         <h1>JavaScript Web</h1>
         <p>JavaScript is a programming language that is commonly used to create interactive effects within web browsers. It allows developers to build dynamic and responsive web applications, enhancing user experience by enabling features such as form validation, animations, and asynchronous content loading.</p>   
+        <div id="div-1" onclick="alert('DIV-1태그')">div-1</div>
+        <input type="button" id="bsutton-1" value="button-1 버" onclick="alert('button-1 버튼')"/> 
+        <div id="div-2">div-2</div>
+        <input type="button" id="button-2" value="button-2 버" /> 
+    </body>
+    <script>
+        document.getElementById("div-2").onclick = function() {
+            alert("DIV-2태그");
+        }
+        document.getElementById("button-2").onclick = function() {
+            alert("button-2 버튼");
+        }
+    </script>
 </html>

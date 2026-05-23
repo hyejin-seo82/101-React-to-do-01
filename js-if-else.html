@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <title>My App</title>
+    </head>
+    <body>
+        <h1>Welcome to My App</h1>
+        <p>This is a simple React app.</p>
+    </body>
+    <script>
+        let orOperator_1 = true || true // true
+        let orOperator_2 = true || false // true
+        let orOperator_3 = false || true // true
+        let orOperator_4 = false || false // false
+
+        console.log(
+            orOperator_1, 
+            orOperator_2, 
+            orOperator_3, 
+            orOperator_4);
+
+                let andOperator_1 = true && true // true
+                let andOperator_2 = true && false // false
+                let andOperator_3 = false && true // false
+                let andOperator_4 = false && false // false
+
+        console.log(
+            andOperator_1, 
+            andOperator_2, 
+            andOperator_3, 
+            andOperator_4);  
+            
+        if(orOperator_4 || andOperator_1) {
+            console.log("과연실행될까"); 
+        }  
+
+        if(6 < 4){
+            console.log("6은 4보다 크다"); 
+        } else if (6 >= 5){
+            console.log("6은 5보다 크거나 같다"); 
+        } else {
+            console.log("다 거짓말이야");
+        }
+
+    </script>
+</html>

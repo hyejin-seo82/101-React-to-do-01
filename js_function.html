@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+    </body>
+    <script>
+        function func_1() {
+            console.log('func_1입니다');
+        }
+
+        const func_2 = function() {
+            console.log("함수2입니다");
+        }
+
+        const getsentence = (sentence) => {
+            console.log("입력받은문장은" + sentence + '입니다 ') 
+        };
+
+        const returnSentence = (sentence) => {
+            return "입력받은문장은" + sentence + '입니다 ';
+        };
+
+        func_1();
+        func_2();
+
+        getsentence("여~");
+        console.log(returnSentence());
+    </script>
+</html>
